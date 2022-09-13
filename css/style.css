@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+/* header */
+.container-header{
+    justify-content: space-between;
+    height: 90px;
+    border-bottom: solid 1px lightgrey;
+}
+
+.list-logo{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.list li:last-child{
+    border-bottom: solid 2px blue;
+}
+
+.list a{
+    color: black;
+}
+
+.logo{
+    padding: 10px;
+}
+
+/* fine header */
