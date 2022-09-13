@@ -89,9 +89,9 @@
 
     </header>
 
-    <!-- <main>
+    <main>
         
-        <div>
+        <div class="container">
             <?php foreach($faq as $value) : ?>
 
             <h2><?php echo $value["domanda"] ?></h2>
@@ -118,7 +118,7 @@
                 <input type="text">
             </div>
         </div>
-    </footer> -->
+    </footer>
 
 </body>
 </html>
